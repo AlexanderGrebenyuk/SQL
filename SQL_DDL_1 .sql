@@ -4,7 +4,7 @@
 //id. serial,  primary key,
 //employee_name. Varchar(50), not null
 
-ñreate table employees(
+create table employees(
 id serial primary key,
 employee_name Varchar(50) not null
 );
@@ -94,6 +94,7 @@ values ('Natalie'),
 	id serial primary key,
 	monthly_salary int not null
 );
+
 //Наполнить таблицу salary 16 строками:
 //1000
 //1100
@@ -237,7 +238,7 @@ values ('Junior Python developer'),
 	  select * from roles_employee;
 	 
 	 
-	-- 5. Таблица roles_employee
+//Таблица roles_employee
 //Создать таблицу roles_employee
 //id. Serial  primary key,
 //employee_id. Int, not null, unique (внешний ключ для таблицы employees, поле id)
